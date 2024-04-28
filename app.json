@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Safeway_2",
+    "slug": "Safeway_2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

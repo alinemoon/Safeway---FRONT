@@ -1,10 +1,31 @@
 {
   "expo": {
-    "name": "Safeway_2",
-    "slug": "Safeway_2",
+    "name": "SafeWay",
+    "slug": "SafeWay",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.SafeWay"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.SafeWay"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "SafeWay"
   }
 }
